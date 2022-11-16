@@ -45,6 +45,14 @@ a:hover {
     min-height:100vh;
 }
 
+@media (max-width: 768px) { 
+    #page-wrapper {
+        min-width:1px;
+        max-width:768px;
+    } 
+    
+}
+
 .main-section {
     display:flex;
     justify-content:center;
