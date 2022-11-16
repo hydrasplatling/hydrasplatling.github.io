@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&family=Rubik:wght@400;600;700;900&display=swap');
 
-
-
 * {
     margin:0;
     padding:0;
@@ -10,6 +8,7 @@
 
 body {
     background: #493f4f;
+    cursor: url(img/cursor.png), auto;
 }
 
 h1 {
@@ -36,6 +35,7 @@ a {
 
 a:hover {
     font-style:italic;
+    cursor: url(img/pointer.png), pointer;
 }
 
 #page-wrapper {
@@ -93,7 +93,7 @@ a:hover {
 }
 
 .nav-button:hover {
-    cursor:pointer;
+    cursor: url(img/pointer.png), pointer;
     color:#867491;
     transition:200ms ease;
 }
