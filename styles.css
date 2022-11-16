@@ -123,18 +123,17 @@ a:hover {
     margin-top:5px;
 }
 
+.tippy-box[data-theme~='mayoi-low'] {
+    background-color: #2e2930;
+    color: #dfd1e6;
+    font-family:'Hind Siliguri', sans-serif;
+    transform: translateY(8px);
+  }
+
 .tippy-box[data-theme~='mayoi'] {
     background-color: #2e2930;
     color: #dfd1e6;
     font-family:'Hind Siliguri', sans-serif;
-  }
-
-  .tippy-box[data-theme~='tomato'][data-placement^='right'] > .tippy-arrow::before {
-    border-right-color: #2e2930;
-  }
-
-  .tippy-box {
-    transform: translateY(8px);
   }
 
   @media (max-width: 768px) { 

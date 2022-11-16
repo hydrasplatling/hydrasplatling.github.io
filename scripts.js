@@ -17,8 +17,16 @@ $('#about-toggle').click(function(){
   tippy('[data-tippy-content]', {
     placement: 'top',
     animation: 'shift-away-extreme',
-    theme: 'mayoi',
+    theme: 'mayoi-low',
     maxWidth: 150,
+  });
+
+  tippy('#typology-label', {
+    content: 'Systems in order: Jung, MBTI, Enneagram with wing, IV, Tritype, Socionics, Big 5, Temperaments, Psychosophy, FIRO, Jungian Archetype, Amoristics',
+    placement: 'left',
+    animation: 'shift-away-extreme',
+    theme: 'mayoi',
+    maxWidth: 220,
   });
 
  // SNOW CODE
