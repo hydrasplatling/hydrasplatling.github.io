@@ -14,6 +14,13 @@ $('#about-toggle').click(function(){
     $(".contact").slideToggle();
  });
 
+  tippy('[data-tippy-content]', {
+    placement: 'top',
+    animation: 'shift-away-extreme',
+    theme: 'mayoi',
+    maxWidth: 150,
+  });
+
  // SNOW CODE
 
  // <![CDATA[
