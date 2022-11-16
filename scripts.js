@@ -1,4 +1,10 @@
-
+// STOP LOOKING AT MY CODE
+// OUT 
+// OUT OUT 
+// OUT 
+// GET OUT
+ 
+// Nav buttons
 $('#about-toggle').click(function(){
     $(".section").not(".about").slideUp();
     $(".about").slideToggle();
@@ -14,6 +20,7 @@ $('#about-toggle').click(function(){
     $(".contact").slideToggle();
  });
 
+ // Tooltips
   tippy('[data-tippy-content]', {
     placement: 'top',
     animation: 'shift-away-extreme',
@@ -48,7 +55,7 @@ $('#about-toggle').click(function(){
     });
 
 
- // SNOW CODE
+ // Snow code
 
  // <![CDATA[
   var speed=50; // lower number for faster
