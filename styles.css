@@ -155,6 +155,7 @@ a:hover {
     #page-wrapper {
         min-width:1px;
         max-width:768px;
+        padding:20px;
     } 
 
     .nav-button {
