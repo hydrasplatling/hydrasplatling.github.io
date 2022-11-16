@@ -17,17 +17,36 @@ $('#about-toggle').click(function(){
   tippy('[data-tippy-content]', {
     placement: 'top',
     animation: 'shift-away-extreme',
-    theme: 'mayoi-low',
+    theme: 'mayoi',
+    offset: [0, 2],
     maxWidth: 150,
   });
 
-  tippy('#typology-label', {
-    content: 'Systems in order: Jung, MBTI, Enneagram with wing, IV, Tritype, Socionics, Big 5, Temperaments, Psychosophy, FIRO, Jungian Archetype, Amoristics',
-    placement: 'left',
-    animation: 'shift-away-extreme',
-    theme: 'mayoi',
-    maxWidth: 220,
-  });
+    tippy('#typology-label', {
+      content: 'Systems in order: Jung, MBTI, Enneagram with wing, IV, Tritype, Socionics, Big 5, Temperaments, Psychosophy, FIRO, Jungian Archetype, Amoristics',
+      placement: 'left',
+      animation: 'shift-away-extreme',
+      theme: 'mayoi',
+      maxWidth: 220,
+      popperOptions: {
+        modifiers: [
+          {
+            name: 'flip',
+            options: {
+              fallbackPlacements: ['top'],
+            },
+          },
+          {
+            name: 'preventOverflow',
+            options: {
+              altAxis: true,
+              tether: false,
+            },
+          },
+        ],
+      },
+    });
+
 
  // SNOW CODE
 
