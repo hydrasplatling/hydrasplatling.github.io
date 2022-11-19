@@ -114,7 +114,7 @@ tippy('.curling-bomb', {
     maxWidth: 200,
   });
 
-  // Tooltips - special weapons
+  // Tooltips - Special weapons
 
   tippy('.ultra-stamp', {
     content: "Ultra Stamp is a special weapon. It's a large hammer which the player can wield to stamp the ground, splatting any enemies hit by it instantly. It can also be thrown and will detonate on contact, similar to a Burst Bomb.",
