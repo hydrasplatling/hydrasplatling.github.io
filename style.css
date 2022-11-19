@@ -241,3 +241,51 @@ h2 {
   .kit-title.close:before {
     content:"▸ ";
   }
+
+  /*Media queries*/
+  @media (max-width:769px){
+    .shooters{ 
+  grid-column:1 / 5; 
+grid-row: 1; 
+ } 
+  
+ .rollers {
+    grid-column: 1 / 5;
+ }
+  
+ .chargers{ 
+  grid-column:3 / 5; 
+ } 
+  
+ .sloshers{ 
+ grid-column: 1 / 5;
+ } 
+  
+ .splatlings{
+ grid-column:1 / 5; 
+ } 
+  
+ .blasters{ 
+ grid-column:1 / 5; 
+ } 
+  
+ .dualies{ 
+ grid-column:1 / 5; 
+ } 
+  
+ .brushes{ 
+ grid-column:1 / 5; 
+ } 
+  
+ .brellas{
+ grid-column: 1 / 5;
+ } 
+  
+ .stringers{
+ grid-column: 1 / 5;
+ } 
+  
+ .splatanas{
+  grid-column: 1 / 5; 
+ }
+  }
