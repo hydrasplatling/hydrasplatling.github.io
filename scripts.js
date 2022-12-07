@@ -222,3 +222,73 @@ tippy('.curling-bomb', {
     theme: 'subspec-description',
     maxWidth: 200,
   });
+
+  tippy('.custom-jr', {
+    content: "Custom Splattershot Jr.",
+    animation: 'shift-away',
+    theme: 'subspec-description',
+    maxWidth: 200,
+  });
+
+  tippy('.aerospray-rg', {
+    content: "Aerospray RG",
+    animation: 'shift-away',
+    theme: 'subspec-description',
+    maxWidth: 200,
+  });
+
+  tippy('.ttek', {
+    content: "Tentatek Splattershot",
+    animation: 'shift-away',
+    theme: 'subspec-description',
+    maxWidth: 200,
+  });
+
+  tippy('.forge-pro', {
+    content: "Forge Splattershot Pro",
+    animation: 'shift-away',
+    theme: 'subspec-description',
+    maxWidth: 200,
+  });
+
+  tippy('.carbon-deco', {
+    content: "Carbon Roller Deco",
+    animation: 'shift-away',
+    theme: 'subspec-description',
+    maxWidth: 200,
+  });
+
+  tippy('.slosher-deco', {
+    content: "Slosher Deco",
+    animation: 'shift-away',
+    theme: 'subspec-description',
+    maxWidth: 200,
+  });
+
+  tippy('.zimi', {
+    content: "Zink Mini Splatling",
+    animation: 'shift-away',
+    theme: 'subspec-description',
+    maxWidth: 200,
+  });
+
+  tippy('.neo-luna', {
+    content: "Neo Luna Blaster",
+    animation: 'shift-away',
+    theme: 'subspec-description',
+    maxWidth: 200,
+  });
+
+  tippy('.napples', {
+    content: "Dapple Dualies Nouveau",
+    animation: 'shift-away',
+    theme: 'subspec-description',
+    maxWidth: 200,
+  });
+
+  tippy('.inkbrush-nouveau', {
+    content: "Inkbrush Nouveau",
+    animation: 'shift-away',
+    theme: 'subspec-description',
+    maxWidth: 200,
+  });
